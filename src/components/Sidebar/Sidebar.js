@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, Route, Switch } from "react-router-dom";
 import { InstalacionPrueba } from "../InstalacionPruba/InstalacionPrueba";
+import { EspecificacionRequerimientosProyecto } from "../EspecificacionRequerimientosProyecto/EspecificacionRequerimientosProyecto"
 
 import "./Sidebar.css";
 
@@ -40,6 +41,12 @@ export const Sidebar = () => {
                     >
                         <i className="fs-4 bi bi-brush me-2"></i>Instalacion
                     </NavLink>
+                    <NavLink
+                        className="display-6 fs-4"
+                        to="/especificacion_requerimientos_proyecto"
+                    >
+                        <i className="fs-4 bi bi-list-check me-2"></i>Especificacion de Requerimientos del Proyecto
+                    </NavLink>
                 </nav>
 
                 <label
@@ -76,6 +83,11 @@ export const Sidebar = () => {
                                     exact
                                     path="/instalacion_pruebas"
                                     component={InstalacionPrueba}
+                                />
+                                <Route
+                                    exact
+                                    path="/especificacion_requerimientos_proyecto"
+                                    component={EspecificacionRequerimientosProyecto}
                                 />
                                 <Route exact path="/" />
                             </Switch>
