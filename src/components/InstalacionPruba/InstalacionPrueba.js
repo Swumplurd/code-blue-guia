@@ -2,7 +2,7 @@ import React from "react";
 
 export const InstalacionPrueba = () => {
     return (
-        <div className="container mt-5">
+        <div className="container mt-5 animate__animated animate__fadeIn">
             <div className="row">
                 <div className="col">
                     <h1 className="display-4">
@@ -16,7 +16,7 @@ export const InstalacionPrueba = () => {
                         carpetas necesarios para su funcionamiento.
                     </p>
 
-                    <p className="lead text-justify mt-2">
+                    <p className="lead no-justify mt-2">
                         • Repositorio de GitHub:&nbsp;
                         <a href="https://github.com/Yakumo-Sahashi/project.git">
                             https://github.com/Yakumo-Sahashi/project.git

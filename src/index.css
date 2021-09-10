@@ -1,3 +1,6 @@
+.no-justify{
+    text-align: left;
+}
 .text-justify {
     text-align: justify;
 }
