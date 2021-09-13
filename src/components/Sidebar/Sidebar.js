@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, Route, Switch } from "react-router-dom";
 import { InstalacionPrueba } from "../InstalacionPruba/InstalacionPrueba";
+<<<<<<< HEAD
+import { EspecificacionRequerimientosProyecto } from "../EspecificacionRequerimientosProyecto/EspecificacionRequerimientosProyecto"
+=======
 import { DefinicionGeneral } from "../DefinicionGeneral/DefinicionGeneral";
 import {Home} from "../Home/Home";
+>>>>>>> 8b9f31cb82e022ccccd5feb3e9d1a7e562b53a26
 
 import "./Sidebar.css";
 
@@ -47,6 +51,12 @@ export const Sidebar = () => {
                         to="/instalacion_pruebas"
                     >
                         <i className="fs-4 bi bi-brush me-2"></i>Instalacion
+                    </NavLink>
+                    <NavLink
+                        className="display-6 fs-4"
+                        to="/especificacion_requerimientos_proyecto"
+                    >
+                        <i className="fs-4 bi bi-list-check me-2"></i>Especificacion de Requerimientos del Proyecto
                     </NavLink>
                 </nav>
 
@@ -95,6 +105,11 @@ export const Sidebar = () => {
                                     exact
                                     path="/instalacion_pruebas"
                                     component={InstalacionPrueba}
+                                />
+                                <Route
+                                    exact
+                                    path="/especificacion_requerimientos_proyecto"
+                                    component={EspecificacionRequerimientosProyecto}
                                 />
                                 <Route exact path="/" />
                             </Switch>
