@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, Route, Switch } from "react-router-dom";
 import { InstalacionPrueba } from "../InstalacionPruba/InstalacionPrueba";
-<<<<<<< HEAD
 import { EspecificacionRequerimientosProyecto } from "../EspecificacionRequerimientosProyecto/EspecificacionRequerimientosProyecto"
-=======
 import { DefinicionGeneral } from "../DefinicionGeneral/DefinicionGeneral";
 import {Home} from "../Home/Home";
->>>>>>> 8b9f31cb82e022ccccd5feb3e9d1a7e562b53a26
 
 import "./Sidebar.css";
 
