@@ -3,6 +3,8 @@ import { NavLink, Route, Switch } from "react-router-dom";
 import { InstalacionPrueba } from "../InstalacionPruba/InstalacionPrueba";
 import { EspecificacionRequerimientosProyecto } from "../EspecificacionRequerimientosProyecto/EspecificacionRequerimientosProyecto"
 import { DefinicionGeneral } from "../DefinicionGeneral/DefinicionGeneral";
+import { ConfiguracionIndex } from "../ConfiguracionIndex/ConfiguracionIndex";
+import { ConfiguracionAccess } from "../ConfiguracionAccess/ConfiguracionAccess";
 import {Home} from "../Home/Home";
 
 import "./Sidebar.css";
@@ -54,6 +56,18 @@ export const Sidebar = () => {
                         to="/especificacion_requerimientos_proyecto"
                     >
                         <i className="fs-4 bi bi-list-check me-2"></i>Especificacion de Requerimientos del Proyecto
+                    </NavLink>
+                    <NavLink
+                        className="display-6 fs-4"
+                        to="/config_index"
+                    >
+                        <i className="fs-4 bi bi-file-earmark-code me-2"></i>Estructura index
+                    </NavLink>
+                    <NavLink
+                        className="display-6 fs-4"
+                        to="/config_htaccess"
+                    >
+                        <i className="fs-4 bi bi-file-earmark-binary me-2"></i>Estructura .htaccess
                     </NavLink>
                 </nav>
 
@@ -107,6 +121,18 @@ export const Sidebar = () => {
                                     exact
                                     path="/especificacion_requerimientos_proyecto"
                                     component={EspecificacionRequerimientosProyecto}
+                                />
+                                <Route exact path="/" />
+                                <Route
+                                    exact
+                                    path="/config_index"
+                                    component={ConfiguracionIndex}
+                                />
+                                <Route exact path="/" />
+                                <Route
+                                    exact
+                                    path="/config_htaccess"
+                                    component={ConfiguracionAccess}
                                 />
                                 <Route exact path="/" />
                             </Switch>
