@@ -1,5 +1,6 @@
 {
   "name": "top-secret",
+  "homepage": "https://swumplurd.github.io/code-blue-guia/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
