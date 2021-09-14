@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/code-blue-guia/static/css/main.6e72f5e0.chunk.css",
-    "main.js": "/code-blue-guia/static/js/main.f1e2c7d3.chunk.js",
-    "main.js.map": "/code-blue-guia/static/js/main.f1e2c7d3.chunk.js.map",
+    "main.js": "/code-blue-guia/static/js/main.7ff06253.chunk.js",
+    "main.js.map": "/code-blue-guia/static/js/main.7ff06253.chunk.js.map",
     "runtime-main.js": "/code-blue-guia/static/js/runtime-main.3cd4f5e4.js",
     "runtime-main.js.map": "/code-blue-guia/static/js/runtime-main.3cd4f5e4.js.map",
     "static/css/2.27202f2f.chunk.css": "/code-blue-guia/static/css/2.27202f2f.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.27202f2f.chunk.css",
     "static/js/2.74ee723a.chunk.js",
     "static/css/main.6e72f5e0.chunk.css",
-    "static/js/main.f1e2c7d3.chunk.js"
+    "static/js/main.7ff06253.chunk.js"
   ]
 }
