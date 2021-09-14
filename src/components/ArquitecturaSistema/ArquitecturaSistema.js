@@ -13,7 +13,7 @@ export const ArquitecturaSistema = () => {
                 <div className="col-md-10">
                     <div className="row g-0">
                         <div className="col-md-4 mb-4">
-                            <img src="assets/img/app.png"
+                            <img alt="..." src="assets/img/app.png"
                                 className="img-fluid rounded border border-dark rounded mx-auto d-block" />
                         </div>
                         <div className="col-md-8 mb-4">
@@ -71,7 +71,7 @@ export const ArquitecturaSistema = () => {
 
                     <div className="row g-0">
                         <div className="col-md-4 mb-4">
-                            <img src="assets/img/controller.png"
+                            <img alt="..." src="assets/img/controller.png"
                                 className="img-fluid rounded border border-dark rounded mx-auto d-block" />
                         </div>
                         <div className="col-md-8 mb-4">
@@ -103,7 +103,7 @@ export const ArquitecturaSistema = () => {
 
                     <div className="row g-0">
                         <div className="col-md-4 mb-4">
-                            <img src="assets/img/model.png"
+                            <img alt="..." src="assets/img/model.png"
                                 className="img-fluid rounded border border-dark rounded mx-auto d-block" />
                         </div>
                         <div className="col-md-8 mb-4">
@@ -134,7 +134,7 @@ export const ArquitecturaSistema = () => {
 
                     <div className="row g-0">
                         <div className="col-md-4 mb-4 mr-5">
-                            <img src="assets/img/public.png"
+                            <img alt="..." src="assets/img/public.png"
                                 className="img-fluid rounded border border-dark rounded mx-auto d-block" />
                         </div>
                         <div className="col-md-8 mb-4">
@@ -242,7 +242,7 @@ export const ArquitecturaSistema = () => {
 
                     <div className="row g-0">
                         <div className="col-md-4 mb-4">
-                            <img src="assets/img/view.png"
+                            <img alt="..." src="assets/img/view.png"
                                 className="img-fluid rounded border border-dark rounded mx-auto d-block" />
                         </div>
                         <div className="col-md-8 mb-4">

@@ -40,7 +40,7 @@ export const DefinicionGeneral = () => {
                     <p className="lead text-justify">
                         A grandes rasgos la carpeta app tiene la funcionalidad de almacenar la paquetería, 
                         configuraciones necesarias, las dependencias de la paquetería y de ser necesario la 
-                        base de datos
+                        base de datos.
                     </p>
                 </div>
             </div>

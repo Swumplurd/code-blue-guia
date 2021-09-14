@@ -13,14 +13,14 @@ export const Home = () => {
                         </div>
                         <div className="col align-self-start">
                             <div className="text-center">
-                                <img className="w-25" src="./assets/img/code_blue.png" />
+                                <img alt="..." className="w-25" src="./assets/img/code_blue.png" />
                             </div>
                         </div>
                     </div>
                     <hr/>
                     <div className="row">
                         <div className="col">
-                            <p className="h3 text-center">Una bliblioteca para PHP para la creación de Sistemas WEB</p>
+                            <p className="h3 text-center">Una biblioteca para PHP para la creación de Sistemas WEB</p>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ export const Home = () => {
                 <div className="col-md-4">
                     <h2 className="h1">Concepto</h2>
                     <p className="lead text-justify">
-                        Code Blue en un Framework, que facilita a la cracion de Sistemas WEB, conexión del servido al cliente, a la
+                        Code Blue es un Framework, que facilita la creacion de Sistemas WEB, conexión del servido al cliente, a la
                         vez de conectar a una Base de Datos, con la facilidad de nuestras costantes.
                     </p>
                 </div>
@@ -43,8 +43,8 @@ export const Home = () => {
                 <div className="col-md-4">
                     <h2 className="h1">Facilidad de uso</h2>
                     <p className="lead text-justify">
-                        Con nuestras costantes definidas estatiamente para la conexión mediante el Front-End y Back-End de forma mas sencilla,
-                        no requieres mas que los conocimientos basicos de PHP, MySQL y JQuery.
+                        Con nuestras constantes definidas estaticamente para la conexión mediante el Front-End y Back-End de forma más sencilla,
+                        no requiere más que los conocimientos básicos de PHP, MySQL y JQuery.
                     </p>
                 </div>
             </div>
@@ -57,19 +57,19 @@ export const Home = () => {
                         <div className="col-sm-3 mr-2 text-center">
                             <figure class="figure">
                                 <img src="./assets/img/tecnm.png" class="figure-img img-fluid rounded" alt="..."/>
-                                <figcaption class="figure-caption text-end">Institutos Tecnologicos de México</figcaption>
+                                <figcaption class="figure-caption text-end">Tecnológico Nacional de México</figcaption>
                             </figure>
                         </div>
                         <div className="col-sm-3 mr-2 text-center">
                             <figure class="figure">
                                 <img src="./assets/img/itma2.png" class="figure-img img-fluid rounded w-75" alt="..."/>
-                                <figcaption class="figure-caption text-end">Instituto Tecnologico de Milpa Alta 2</figcaption>
+                                <figcaption class="figure-caption text-end">Instituto Tecnológico de Milpa Alta II</figcaption>
                             </figure>
                         </div>
                         <div className="col-sm-3 text-center">
                             <figure class="figure">
                                 <img src="./assets/img/carrera.png" class="figure-img img-fluid rounded w-75" alt="..."/>
-                                <figcaption class="figure-caption text-end">Carrera Ingenieria en Sistemas Computacionales</figcaption>
+                                <figcaption class="figure-caption text-end">Carrera Ingeniería en Sistemas Computacionales</figcaption>
                             </figure>
                         </div>
                     </div>

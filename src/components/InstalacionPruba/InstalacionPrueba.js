@@ -18,8 +18,8 @@ export const InstalacionPrueba = () => {
 
                     <p className="lead no-justify mt-2">
                         • Repositorio de GitHub:&nbsp;
-                        <a href="https://github.com/Yakumo-Sahashi/project.git">
-                            https://github.com/Yakumo-Sahashi/project.git
+                        <a href="https://github.com/Yakumo-Sahashi/code_blue.git">
+                            https://github.com/Yakumo-Sahashi/code_blue.git
                         </a>
                     </p>
                     <p className="lead text-justify">

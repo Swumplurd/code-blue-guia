@@ -11,6 +11,7 @@ import {Home} from "../Home/Home";
 
 import "./Sidebar.css";
 import { ArchivoControlUrl } from "../ArchivoControlUrl/ArchivoControlUrl";
+import { ArquitecturaSistema } from "../ArquitecturaSistema/ArquitecturaSistema";
 
 
 export const Sidebar = () => {
@@ -40,50 +41,62 @@ export const Sidebar = () => {
 
             <aside className="sidebar" style={{ zIndex: "1" }}>
                 <nav className="sidebar__menu">
-                    <NavLink className="display-6 fs-4" to="/">
-                        <i className="fs-4 bi bi-house me-2"></i>Home
+                    <NavLink className="display-6 fs-6" to="/">
+                        <i className="fs-6 bi bi-house me-2"></i>Home
                     </NavLink>
                     <NavLink 
-                        className="display-6 fs-4"
+                        className="display-6 fs-6"
                         to="/definicion_general"
                     >
-                        <i className="fs-4 bi bi-card-checklist me-2"></i>Definicion
+                        <i className="fs-6 bi bi-card-checklist me-2"></i>Definicion
                     </NavLink>
                     <NavLink
-                        className="display-6 fs-4"
+                        className="display-6 fs-6"
+                        to="/requerimientos"
+                    >
+                        <i className="fs-6 bi bi-list-check me-2"></i>Requerimientos
+                    </NavLink>
+                    <NavLink
+                        className="display-6 fs-6"
                         to="/instalacion_pruebas"
                     >
-                        <i className="fs-4 bi bi-brush me-2"></i>Instalacion
+                        <i className="fs-6 bi bi-download me-2"></i>Instalacion
                     </NavLink>
                     <NavLink
-                        className="display-6 fs-4"
-                        to="/especificacion_requerimientos_proyecto"
+                        className="display-6 fs-6"
+                        to="/arquitectura"
                     >
-                        <i className="fs-4 bi bi-list-check me-2"></i>Especificacion de Requerimientos del Proyecto
+                        <i className="fs-6 bi bi-card-list me-2"></i>Arquitectura
                     </NavLink>
-                    <NavLink
-                        className="display-6 fs-4"
-                        to="/archivo_config"
+                    <NavLink 
+                        className="display-6 fs-6"
+                        to="/config_index"
                     >
-                        <i className="fs-4 bi bi-gear me-2"></i>config.php
+                        <i className="fs-6 bi bi-card-checklist me-2"></i>Configuración Index
                     </NavLink>
                     <NavLink
-                        className="display-6 fs-4"
-                        to="/archivo_dependencias"
-                    >
-                        <i className="fs-4 bi bi-book-half me-2"></i>dependencias.php
-                    </NavLink>
-                    <NavLink
-                        className="display-6 fs-4"
+                        className="display-6 fs-6"
                         to="/archivo_control_url"
                     >
-                        <i className="fs-4 bi bi-cpu me-2"></i>control_url.php
+                        <i className="fs-6 bi bi-cpu me-2"></i>control_url.php
                     </NavLink>
                     <NavLink
-                        className="display-6 fs-4"
+                        className="display-6 fs-6"
                         to="/config_htaccess"
                     >
-                        <i className="fs-4 bi bi-file-earmark-binary me-2"></i>Estructura .htaccess
+                        <i className="fs-6 bi bi-file-earmark-binary me-2"></i>Estructura .htaccess
+                    </NavLink>
+                    <NavLink
+                        className="display-6 fs-6"
+                        to="/archivo_config"
+                    >
+                        <i className="fs-6 bi bi-gear me-2"></i>config.php
+                    </NavLink>
+                    <NavLink
+                        className="display-6 fs-6"
+                        to="/archivo_dependencias"
+                    >
+                        <i className="fs-6 bi bi-book-half me-2"></i>dependencias.php
                     </NavLink>
                 </nav>
 
@@ -127,6 +140,11 @@ export const Sidebar = () => {
                                     path="/definicion_general"
                                     component={DefinicionGeneral}
                                 />
+                                <Route
+                                    exact
+                                    path="/arquitectura"
+                                    component={ArquitecturaSistema}
+                                />
                                 <Route exact path="/" />
                                 <Route
                                     exact
@@ -135,7 +153,7 @@ export const Sidebar = () => {
                                 />
                                 <Route
                                     exact
-                                    path="/especificacion_requerimientos_proyecto"
+                                    path="/requerimientos"
                                     component={EspecificacionRequerimientosProyecto}
                                 />
                                 <Route
