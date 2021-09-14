@@ -3,9 +3,13 @@ import { NavLink, Route, Switch } from "react-router-dom";
 import { InstalacionPrueba } from "../InstalacionPruba/InstalacionPrueba";
 import { EspecificacionRequerimientosProyecto } from "../EspecificacionRequerimientosProyecto/EspecificacionRequerimientosProyecto"
 import { DefinicionGeneral } from "../DefinicionGeneral/DefinicionGeneral";
+import { ArchivoConfig } from "../ArchivoConfig/ArchivoConfig";
+import { ArchivoDependencias } from "../ArchivoDependencias/ArchivoDependencias";
 import {Home} from "../Home/Home";
 
 import "./Sidebar.css";
+import { ArchivoControlUrl } from "../ArchivoControlUrl/ArchivoControlUrl";
+
 
 export const Sidebar = () => {
     const [theme, setTheme] = useState(false);
@@ -54,6 +58,24 @@ export const Sidebar = () => {
                         to="/especificacion_requerimientos_proyecto"
                     >
                         <i className="fs-4 bi bi-list-check me-2"></i>Especificacion de Requerimientos del Proyecto
+                    </NavLink>
+                    <NavLink
+                        className="display-6 fs-4"
+                        to="/archivo_config"
+                    >
+                        <i className="fs-4 bi bi-gear me-2"></i>config.php
+                    </NavLink>
+                    <NavLink
+                        className="display-6 fs-4"
+                        to="/archivo_dependencias"
+                    >
+                        <i className="fs-4 bi bi-book-half me-2"></i>dependencias.php
+                    </NavLink>
+                    <NavLink
+                        className="display-6 fs-4"
+                        to="/archivo_control_url"
+                    >
+                        <i className="fs-4 bi bi-cpu me-2"></i>control_url.php
                     </NavLink>
                 </nav>
 
@@ -107,6 +129,21 @@ export const Sidebar = () => {
                                     exact
                                     path="/especificacion_requerimientos_proyecto"
                                     component={EspecificacionRequerimientosProyecto}
+                                />
+                                <Route
+                                    exact
+                                    path="/archivo_config"
+                                    component={ArchivoConfig}
+                                />
+                                <Route
+                                    exact
+                                    path="/archivo_dependencias"
+                                    component={ArchivoDependencias}
+                                />
+                                <Route
+                                    exact
+                                    path="/archivo_control_url"
+                                    component={ArchivoControlUrl}
                                 />
                                 <Route exact path="/" />
                             </Switch>
