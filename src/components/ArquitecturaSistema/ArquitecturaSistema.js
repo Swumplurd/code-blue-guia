@@ -172,7 +172,7 @@ export const ArquitecturaSistema = () => {
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapsePThree" aria-expanded="false"
                                             aria-controls="collapsePThree">
-                                            <b>files</b>
+                                            <b className="files">files</b>
                                         </button>
                                     </h2>
                                     <div id="collapsePThree" className="accordion-collapse collapse"
