@@ -132,11 +132,6 @@ export const Sidebar = () => {
                             <Switch>
                                 <Route
                                     exact
-                                    path="/"
-                                    component={Home}
-                                />
-                                <Route
-                                    exact
                                     path="/definicion_general"
                                     component={DefinicionGeneral}
                                 />
@@ -145,7 +140,6 @@ export const Sidebar = () => {
                                     path="/arquitectura"
                                     component={ArquitecturaSistema}
                                 />
-                                <Route exact path="/" />
                                 <Route
                                     exact
                                     path="/instalacion_pruebas"
@@ -171,19 +165,21 @@ export const Sidebar = () => {
                                     path="/archivo_control_url"
                                     component={ArchivoControlUrl}
                                 />
-                                <Route exact path="/" />
                                 <Route
                                     exact
                                     path="/config_index"
                                     component={ConfiguracionIndex}
                                 />
-                                <Route exact path="/" />
                                 <Route
                                     exact
                                     path="/config_htaccess"
                                     component={ConfiguracionAccess}
                                 />
-                                <Route exact path="/" />
+                                <Route
+                                    exact
+                                    path="/"
+                                    component={Home}
+                                />
                             </Switch>
                         </div>
                     </div>
