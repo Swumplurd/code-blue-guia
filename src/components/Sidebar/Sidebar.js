@@ -5,6 +5,8 @@ import { EspecificacionRequerimientosProyecto } from "../EspecificacionRequerimi
 import { DefinicionGeneral } from "../DefinicionGeneral/DefinicionGeneral";
 import { ArchivoConfig } from "../ArchivoConfig/ArchivoConfig";
 import { ArchivoDependencias } from "../ArchivoDependencias/ArchivoDependencias";
+import { ConfiguracionIndex } from "../ConfiguracionIndex/ConfiguracionIndex";
+import { ConfiguracionAccess } from "../ConfiguracionAccess/ConfiguracionAccess";
 import {Home} from "../Home/Home";
 
 import "./Sidebar.css";
@@ -77,6 +79,12 @@ export const Sidebar = () => {
                     >
                         <i className="fs-4 bi bi-cpu me-2"></i>control_url.php
                     </NavLink>
+                    <NavLink
+                        className="display-6 fs-4"
+                        to="/config_htaccess"
+                    >
+                        <i className="fs-4 bi bi-file-earmark-binary me-2"></i>Estructura .htaccess
+                    </NavLink>
                 </nav>
 
                 <label
@@ -144,6 +152,18 @@ export const Sidebar = () => {
                                     exact
                                     path="/archivo_control_url"
                                     component={ArchivoControlUrl}
+                                />
+                                <Route exact path="/" />
+                                <Route
+                                    exact
+                                    path="/config_index"
+                                    component={ConfiguracionIndex}
+                                />
+                                <Route exact path="/" />
+                                <Route
+                                    exact
+                                    path="/config_htaccess"
+                                    component={ConfiguracionAccess}
                                 />
                                 <Route exact path="/" />
                             </Switch>

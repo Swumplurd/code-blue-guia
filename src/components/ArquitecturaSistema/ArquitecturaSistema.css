@@ -1,0 +1,49 @@
+.rojo{
+    color: #ef5350;
+}
+
+.rojo:hover{
+    color: #f47878;
+}
+
+.amarillo{
+    color: #ffca28;
+}
+
+.amarillo:hover{
+    color: #ffde78;
+}
+
+.verde{
+    color: #c0ca33;
+}
+
+.verde:hover{
+    color: #d1d966;
+}
+
+.azul{
+    color:#039be5;
+}
+.azul:hover{
+    color: #0b88c5;
+}
+.naranja{
+    color:#ff7043;
+}
+.naranja:hover{
+    color: #ff784d;
+}
+
+.noBack{
+    background: none;
+}
+
+.accordion-button{
+    background: none;
+    
+}
+
+.accordion-item{
+    border-color:#565a59;
+}
