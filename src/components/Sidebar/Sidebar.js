@@ -12,6 +12,7 @@ import {Home} from "../Home/Home";
 import "./Sidebar.css";
 import { ArchivoControlUrl } from "../ArchivoControlUrl/ArchivoControlUrl";
 import { ArquitecturaSistema } from "../ArquitecturaSistema/ArquitecturaSistema";
+import { About } from "../About/About";
 
 
 export const Sidebar = () => {
@@ -174,6 +175,11 @@ export const Sidebar = () => {
                                     exact
                                     path="/config_htaccess"
                                     component={ConfiguracionAccess}
+                                />
+                                <Route
+                                    exact
+                                    path="/about"
+                                    component={About}
                                 />
                                 <Route
                                     exact
