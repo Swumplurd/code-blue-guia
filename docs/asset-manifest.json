@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/code-blue-guia/static/css/main.6e72f5e0.chunk.css",
-    "main.js": "/code-blue-guia/static/js/main.a29fbc41.chunk.js",
-    "main.js.map": "/code-blue-guia/static/js/main.a29fbc41.chunk.js.map",
+    "main.js": "/code-blue-guia/static/js/main.0a5e1c94.chunk.js",
+    "main.js.map": "/code-blue-guia/static/js/main.0a5e1c94.chunk.js.map",
     "runtime-main.js": "/code-blue-guia/static/js/runtime-main.3cd4f5e4.js",
     "runtime-main.js.map": "/code-blue-guia/static/js/runtime-main.3cd4f5e4.js.map",
     "static/css/2.27202f2f.chunk.css": "/code-blue-guia/static/css/2.27202f2f.chunk.css",
-    "static/js/2.74ee723a.chunk.js": "/code-blue-guia/static/js/2.74ee723a.chunk.js",
-    "static/js/2.74ee723a.chunk.js.map": "/code-blue-guia/static/js/2.74ee723a.chunk.js.map",
+    "static/js/2.06c4ffbc.chunk.js": "/code-blue-guia/static/js/2.06c4ffbc.chunk.js",
+    "static/js/2.06c4ffbc.chunk.js.map": "/code-blue-guia/static/js/2.06c4ffbc.chunk.js.map",
     "index.html": "/code-blue-guia/index.html",
     "static/css/2.27202f2f.chunk.css.map": "/code-blue-guia/static/css/2.27202f2f.chunk.css.map",
     "static/css/main.6e72f5e0.chunk.css.map": "/code-blue-guia/static/css/main.6e72f5e0.chunk.css.map",
-    "static/js/2.74ee723a.chunk.js.LICENSE.txt": "/code-blue-guia/static/js/2.74ee723a.chunk.js.LICENSE.txt",
+    "static/js/2.06c4ffbc.chunk.js.LICENSE.txt": "/code-blue-guia/static/js/2.06c4ffbc.chunk.js.LICENSE.txt",
     "static/media/bootstrap-icons.css": "/code-blue-guia/static/media/bootstrap-icons.dfd0ea12.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.3cd4f5e4.js",
     "static/css/2.27202f2f.chunk.css",
-    "static/js/2.74ee723a.chunk.js",
+    "static/js/2.06c4ffbc.chunk.js",
     "static/css/main.6e72f5e0.chunk.css",
-    "static/js/main.a29fbc41.chunk.js"
+    "static/js/main.0a5e1c94.chunk.js"
   ]
 }
