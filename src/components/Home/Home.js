@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Card.css";
 export const Home = () => {
     return (
         <div className="container mt-5 animate__animated animate__fadeIn">
@@ -41,6 +41,63 @@ export const Home = () => {
                     </p>
                 </div>
             </div>
+            <div className="row mt-2">
+                <div className="col">
+                    <p className="lead text-justify">Utilizando los framework y paqueterias</p>
+                    <hr/>
+                </div>
+            </div>
+
+            <div className="cont">
+                        <div className="carta">
+                            <div className="cara cara1 bootstrap-color">
+                                <div className="content">
+                                    <i className="fa-5x mx-auto d-block fab fa-bootstrap"></i>
+                                    <h3>Bootstrap</h3>
+                                </div>
+                            </div>
+                            <div className="cara cara2">
+                                <div className="content">
+                                    <p className="texto-justificado">Empiece a utilizar Bootstrap, el marco de trabajo más popular del mundo para crear sitios con capacidad de respuesta para dispositivos móviles, con jsDelivr y una página de inicio de plantilla.</p>
+                                    <a className="boton boton1" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank"><p className="texto">Documentacion</p></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="carta">
+                            <div className="cara cara1 datatable-color">
+                                <div className="content">
+                                    <i className="fa-5x mx-auto d-block fab fa-dyalog"></i>
+                                    <h3>DataTable</h3>
+                                </div>
+                            </div>
+                            <div className="cara cara2">
+                                <div className="content">
+                                    <p className="texto-justificado">DataTable es un complemento de jQuery fácil de usar con una amplia gama de opciones personalizables.</p>
+                                    <a className="boton boton1" href="https://datatables.net/examples/basic_init/" target="_blank"><p className="texto">Documentacion</p></a>
+                                </div>
+                            </div>
+                        </div>  
+
+                        <div className="carta">
+                            <div className="cara cara1 fontawesome-color">
+                                <div className="content">
+                                    <i className="fa-5x mx-auto d-block fab fa-font-awesome-flag"></i>
+                                    <h3>FontAwesome</h3>
+                                </div>
+                            </div>
+                            <div className="cara cara2">
+                                <div className="content">
+                                    <p className="texto-justificado">Obtenga iconos y logotipos sociales en Font Awesome, el conjunto de herramientas y el conjunto de iconos más populares de la web.</p>
+                                    <a className="boton boton1" href="https://fontawesome.com/" target="_blank"><p className="texto">Documentacion</p></a>
+                                </div>
+                            </div>
+                        </div>  
+
+
+            </div>
+
             <div className="row mt-5">
                 <div className="col">
                     <p className="lead">
