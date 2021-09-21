@@ -98,7 +98,7 @@ export const InstalacionPrueba = () => {
 
                     <div className="d-flex justify-content-center m-3">
                         <img
-                            src="./assets/img/InstalacionPruebas2.png"
+                            src="./assets/img/code_blue_home.png"
                             className="img-thumbnail"
                             alt="..."
                         />
